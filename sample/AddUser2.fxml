@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AddUserAnchorPane" prefHeight="391.0" prefWidth="318.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
+   <children>
+      <ImageView fitHeight="72.0" fitWidth="78.0" layoutX="8.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@adduser.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="6.0" layoutY="76.0" prefHeight="2.0" prefWidth="305.0" />
+      <Separator layoutX="8.0" layoutY="333.0" prefHeight="11.0" prefWidth="305.0" />
+      <Label fx:id="errorChecker" alignment="CENTER" layoutX="6.0" layoutY="315.0" prefHeight="18.0" prefWidth="305.0" textFill="#dd1717" />
+      <Button id="SaveButton" fx:id="SaveButton" layoutX="6.0" layoutY="343.0" mnemonicParsing="false" onAction="#SaveButtonPressed" prefHeight="38.0" prefWidth="150.0" stylesheets="@application.css" text="SAVE" textFill="#141413" />
+      <Button id="CloseButton" fx:id="CloseButton" layoutX="162.0" layoutY="343.0" mnemonicParsing="false" onAction="#CloseButtonPressed" prefHeight="38.0" prefWidth="150.0" stylesheets="@application.css" text="CLOSE" textFill="#141413" />
+      <VBox layoutX="-2.0" layoutY="79.0" prefHeight="221.0" prefWidth="318.0" spacing="3.0">
+         <children>
+            <Label prefHeight="16.0" prefWidth="165.0" text="User ID/Reg No:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UserId" promptText="e.g 3769845 / S13/09420/17" />
+            <Label prefHeight="16.0" prefWidth="90.0" text="First Name:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="FirstName" promptText="e.g Xavier" />
+            <Label text="Last Name:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="LastName" promptText="e.g Stephens" />
+            <Label prefHeight="16.0" prefWidth="56.0" text="Class:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Class" promptText="year 1/2/3/4/5/6 " />
+            <Label text="Faculty:">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Faculty" promptText="e.g Faculty of Science" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

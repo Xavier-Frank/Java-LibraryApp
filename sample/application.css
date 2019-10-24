@@ -1,0 +1,131 @@
+/*E-reader.fxml Button Color controller */ 
+#AnchorPane{
+	-fx-background-color: #fff5f5;
+}
+#home{
+	-fx-background-color:#c2f8fb;
+	
+}
+#IssueBook{
+	-fx-background-color:#23cada;
+}
+#ReturnBook{
+	-fx-background-color:#2ceec0;
+}
+#AddBook{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+#AddUsers{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+#SearchBook{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+#SearchUsers{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+#BookList{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+#UserList{
+	-fx-background-color:blue;
+	-fx-border-radius: 10px;
+}
+
+/*reference */
+
+/* #home:hover{
+	-fx-title-side: bottom ;
+}*/
+
+/* hovering effect*/
+#AddBook:hover{
+	-fx-background-color:#611616;
+	-fx-border-radius: 10px;
+}
+#AddUsers:hover{
+	-fx-background-color:#611616;
+}
+#SearchBook:hover{
+	-fx-background-color:#611616;
+}
+#SearchUsers:hover{
+	-fx-background-color:#611616;
+}
+#BookList:hover{
+	-fx-background-color:#611616;
+}
+#UserList:hover{
+	-fx-background-color:#611616;
+}
+
+/*Home tab buttons -Previous and Next Buttons- */
+
+#PreviousButton{
+	-fx-background-color: grey;
+}
+#NextButton{
+	-fx-background-color: grey;
+}
+/*Home tab Button hover effect*/
+#PreviousButton:hover{
+	-fx-background-color: #611616;
+}
+#NextButton:hover{
+	-fx-background-color: #611616;
+}
+
+/*Add book.fxml Color controller */
+
+#AddBookAnchorPane{
+	-fx-background-color: grey;
+}
+#SaveButton{
+	-fx-background-color: green;
+}
+#CloseButton{
+	-fx-background-color: blue;
+}
+#AddImage{
+	-fx-background-color: #0bb2e2;
+}
+/*Hovering effect for AddBook.fxml */
+#SaveButton:hover{
+	-fx-background-color: #0bb2e2;
+}
+#CloseButton:hover{
+	-fx-background-color: #611616;
+}
+#AddImage:hover{
+	-fx-background-color:green;
+}
+#LeftDescription{
+	-fx-background-color: white;
+	-fx-border-radius: 5px;
+}
+#CenterDescription{
+	-fx-background-color: white;
+	-fx-border-radius: 5px;
+}
+#RightDescription{
+	-fx-background-color: white;
+	-fx-border-radius: 5px;
+}
+
+/*Add user fxml file controller */
+
+#AddUserAnchorPane{
+	-fx-background-color: grey;
+}
+/* table view design */
+#closeListButtons{
+	-fx-background-color: blue
+}
+#closeListButtons:hover{
+	-fx-background-color: green;
+}
